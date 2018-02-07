@@ -675,7 +675,7 @@
 	<item name="762mmBullet" count="1,10"/>
 </lootgroup>
 
-<lootgroup name="trophyGroup" count="1">
+<lootgroup name="trophyGroup" count="10">
 	<item name="trophy"/>
 	<item name="trophy2"/>
 </lootgroup>
@@ -1010,10 +1010,10 @@
 	<item name="oldCash" count="1,6" prob="0.3"/>
 	<item name="cloth" count="1,4"/>
 	<item group="trophyGroup"/>
-	<item name="candleStick"/>
+	<item name="candleStick count="10""/>
 	<item name="glassCTRSheet"/>
 	<item name="gunPowder" count="1,3"/>
-	<item name="doorKnob" count="1"/>
+	<item name="doorKnob" count="10"/>
 	<item name="oil" count="2,6"/>
 	<item name="shortMetalPipe" count="1"/>
 	<item name="fishingWeight" count="1,3"/>
