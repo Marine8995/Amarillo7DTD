@@ -172,8 +172,8 @@
 		
 			<hub_type value="rural"/>
 			
-			<width value="420, 420" />
-			<height value="255, 255" />
+			<width value="1281,1281" />
+			<height value="1281,1281" />
 			
 			<path_material value="asphalt" />
 			<path_radius value="11" />
@@ -199,8 +199,8 @@
 		
 			<hub_type value="rural"/>
 			
-			<width value="525, 525" />
-			<height value="255, 255" />
+			<width value="1281,1281" />
+			<height value="1281,1281" />
 			
 			<path_material value="asphalt" />
 			<path_radius value="16" />
