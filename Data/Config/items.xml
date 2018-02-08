@@ -9850,7 +9850,7 @@ Mesh files no longer used:
 	<property name="Material" value="metal"/>
 	<property name="RepairTools" value="repairKit"/>	
 	<property class="Parts">
-		<property name="Stock" value="partsAuger_parts"/>
+		<property name="Stock" value="hdAuger_Parts"/>
 		<property name="Receiver" value="smallEngine"/>
 		<property name="Pump" value="partsHandlebars"/> <!-- DegradationRate -->
 		<property name="Barrel" value="partsAuger_blade"/>
@@ -9864,5 +9864,16 @@ Mesh files no longer used:
 	<property name="ActionSkillGroup" value="Mining Tools"/>
 	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
+</item>
+
+<item id="1508" name="hdAuger_Parts">
+	<property name="Extends" value="partsMaster" />
+	<property name="DescriptionKey" value="hdAuger_Parts" />
+	<!--<property name="CustomIcon" value="HDAuger_Parts" />-->	
+	<property name="EconomicValue" value="500" />
+	<property class="Attributes">		
+		<property name="DegradationRate" value="1,1" />
+		<property name="DegradationMax" value="6000,12000" />
+	</property>	
 </item>
 </items>
