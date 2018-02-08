@@ -9887,4 +9887,18 @@ Mesh files no longer used:
 	</property>
 	<property name="CraftingSkillGroup" value="craftSkillScience" />
 </item>
+<item id="1509" name="HDAuger_Blade">
+	<property name="Extends" value="partsMaster" />
+	<property name="CustomIcon" value="HDAuger_Blade" />
+	<property name="PartType" value="Barrel" />
+	<property name="Weight" value="40" />
+	<property name="EconomicValue" value="500" />
+	<property class="Attributes">
+		<property name="EntityDamage" value="4,12" />
+		<property name="BlockDamage" value="65,90" />
+		<!-- <property name="Accuracy" value="1, 0.01" /> -->
+		<property name="DegradationMax" value="6000,12000" />
+	</property>
+	<property name="CraftingSkillGroup" value="craftSkillWeapons" />
+</item>
 </items>
