@@ -9842,25 +9842,7 @@ Mesh files no longer used:
 	</property>
 </item>
 
-<item id="1507" name="HDAuger">
-	<property name="Extends" value="auger" />
-	<property name="DescriptionKey" value="HDAuger" />
-	<property name="CustomIcon" value="HDAuger" />	
-	<property name="EconomicValue" value="1750" />
-	<property name="Material" value="metal" />
-    <property name="Weight" value="200" />
-	<property class="Parts">
-		<property name="Stock" value="HDAuger_Parts" />
-		<property name="Receiver" value="smallEngine" />
-		<property name="Pump" value="partsHandlebars" />
-		<property name="Barrel" value="HDAuger_Blade" />
-	</property>
-	<property class="Action0">
-		<property name="Magazine_size" value="1000" />
-        <property name="DamageBonus.stone" value="3" />
-        <property name="DamageBonus.metal" value="2" />
-	</property>	
-</item>
+
 
 
 
