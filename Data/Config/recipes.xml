@@ -2682,11 +2682,11 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 
 <!-- * * * * * * * * * * * * Additional Recipes * * * * * * * * * * * * -->
 
-<recipe name="HDAuger" count="1" craft_area="assembly" craft_exp_gain="50">
+<recipe name="hdAuger" count="1" craft_area="assembly" craft_exp_gain="50">
 	<ingredient name="partsHandlebars" count="1"/>
 	<ingredient name="smallEngine" count="1"/>
-	<ingredient name="HDAuger_Parts" count="1"/>
-	<ingredient name="HDAuger_Blade" count="1"/>
+	<ingredient name="hdAuger_Parts" count="1"/>
+	<ingredient name="hdAuger_Blade" count="1"/>
 </recipe>
 	
 	
@@ -2696,12 +2696,12 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="forgedSteel" count="2"/>
 </recipe>	
 	
-<recipe name="HDAuger_Parts" count="1" craft_area="workbench" craft_exp_gain="250">
+<recipe name="hdAuger_Parts" count="1" craft_area="workbench" craft_exp_gain="250">
 	<ingredient name="partsAuger_parts" count="1"/>
 	<ingredient name="forgedSteel" count="25"/>
 </recipe>
 
-<recipe name="HDAuger_Blade" count="1" craft_area="workbench" craft_exp_gain="250">
+<recipe name="hdAuger_Blade" count="1" craft_area="workbench" craft_exp_gain="250">
 	<ingredient name="partsAuger_blade" count="1"/>
 	<ingredient name="forgedSteel" count="50"/>
 </recipe>
