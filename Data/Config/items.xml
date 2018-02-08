@@ -9844,16 +9844,16 @@ Mesh files no longer used:
 
 <item id="1507" name="hdAuger">
 	<property name="Extends" value="auger" />
-	<property name="DescriptionKey" value="HDAuger" />
-	<property name="CustomIcon" value="hdAuger" />	
+	<property name="DescriptionKey" value="hdAuger" />
+	<property name="CustomIcon" value="HDAuger" />	
 	<property name="EconomicValue" value="1750" />
 	<property name="Material" value="metal" />
     <property name="Weight" value="200" />
 	<property class="Parts">
-		<property name="Stock" value="HDAuger_Parts" />
+		<property name="Stock" value="hdAuger_Parts" />
 		<property name="Receiver" value="smallEngine" />
 		<property name="Pump" value="partsHandlebars" />
-		<property name="Barrel" value="HDAuger_Blade" />
+		<property name="Barrel" value="hdAuger_Blade" />
 	</property>
 	<property class="Action0">
 		<property name="Magazine_size" value="1000" />
