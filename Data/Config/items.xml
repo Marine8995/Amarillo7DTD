@@ -9845,7 +9845,7 @@ Mesh files no longer used:
 <item id="1507" name="hdAuger">
 	<property name="Extends" value="auger" />
 	<property name="DescriptionKey" value="hdAuger" />
-	<property name="CustomIcon" value="HDAuger" />	
+	<!--<property name="CustomIcon" value="HDAuger" />-->	
 	<property name="EconomicValue" value="1750" />
 	<property name="Material" value="metal" />
     <property name="Weight" value="200" />
@@ -9865,7 +9865,7 @@ Mesh files no longer used:
 <item id="1508" name="hdAuger_Parts">
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="hdAuger_Parts" />
-	<property name="CustomIcon" value="HDAuger_Parts" />	
+	<!--<property name="CustomIcon" value="HDAuger_Parts" />-->	
 	<property name="EconomicValue" value="500" />
 	<property class="Attributes">		
 		<property name="DegradationRate" value="1,1" />
@@ -9876,7 +9876,7 @@ Mesh files no longer used:
 <item id="1509" name="hdAuger_Blade">
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="hdAuger_Blade" />
-	<property name="CustomIcon" value="HDAuger_Blade" />
+	<!--<property name="CustomIcon" value="HDAuger_Blade" />-->
 	<property name="EconomicValue" value="500" />
 	<property class="Attributes">
 		<property name="EntityDamage" value="4,12" />
