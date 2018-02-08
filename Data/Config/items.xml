@@ -9843,7 +9843,9 @@ Mesh files no longer used:
 </item>
 
 <item id="1507" name="hdAuger">
-	<property name="Meshfile" value="Items/Tools/augerPrefab"/>
+	<property name="Extends" value="auger" />
+	<property name="DescriptionKey" value="hdAuger" />
+	<property name="CustomIcon" value="HDAuger" />
 	<property name="Material" value="metal"/>
 	<property name="RepairTools" value="repairKit"/>
 	<property name="HoldType" value="20"/>
