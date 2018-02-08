@@ -9898,6 +9898,6 @@ Mesh files no longer used:
 		<!-- <property name="Accuracy" value="1, 0.01" /> -->
 		<property name="DegradationMax" value="6000,12000" />
 	</property>
-	<property name="CraftingSkillGroup" value="craftSkillScience" />
+	<property name="CraftingSkillGroup" value="craftSkillWeapons" />
 </item>
 </items>
