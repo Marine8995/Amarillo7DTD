@@ -9848,7 +9848,7 @@ Mesh files no longer used:
 	<property name="EconomicValue" value="1750" />
 	<property class="Parts">
 		<property name="Stock" value="HDAuger_Parts" />
-		<property name="Receiver" value="SmallEngine" />
+		<property name="Receiver" value="smallEngine" />
 		<property name="Pump" value="partsHandlebars" />
 		<property name="Barrel" value="HDAuger_Blade" />
 	</property>
