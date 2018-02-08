@@ -9861,7 +9861,8 @@ Mesh files no longer used:
         <property name="DamageBonus.metal" value="2" />
 	</property>	
 </item>
-<item id="1508" name="HDAuger_Parts">
+
+<item id="1507" name="HDAuger_Parts">
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="HDAuger_Parts" />
 	<property name="CustomIcon" value="HDAuger_Parts" />	
@@ -9871,6 +9872,7 @@ Mesh files no longer used:
 		<property name="DegradationMax" value="6000,12000" />
 	</property>	
 </item>
+
 <item id="1509" name="HDAuger_Blade">
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="HDAuger_Blade" />
