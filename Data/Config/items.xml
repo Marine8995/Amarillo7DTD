@@ -9850,10 +9850,10 @@ Mesh files no longer used:
 	<property name="Material" value="metal"/>
 	<property name="RepairTools" value="repairKit"/>	
 	<property class="Parts">
-		<property name="Stock" value="hdAuger_Parts"/>
+		<property name="Stock" value="hdAugerParts"/>
 		<property name="Receiver" value="smallEngine"/>
 		<property name="Pump" value="partsHandlebars"/> <!-- DegradationRate -->
-		<property name="Barrel" value="partsAuger_blade"/>
+		<property name="Barrel" value="hdAugerBlade"/>
 	</property>
 	<property class="Action0"> <!-- AttackAction -->		
 		<property name="Magazine_size" value="1000"/>		
@@ -9866,13 +9866,25 @@ Mesh files no longer used:
 	<property name="RepairExpMultiplier" value="10.8"/>
 </item>
 
-<item id="1508" name="hdAuger_Parts">
+<item id="1508" name="hdAugerParts">
 	<property name="Extends" value="partsMaster" />
-	<property name="DescriptionKey" value="hdAuger_Parts" />
+	<property name="DescriptionKey" value="hdAugerParts" />
 	<property name="CustomIcon" value="HDAuger_Parts" />
 	<property name="EconomicValue" value="500" />
 	<property class="Attributes">		
 		<property name="DegradationRate" value="1,1" />
+		<property name="DegradationMax" value="6000,12000" />
+	</property>	
+</item>
+
+<item id="1509" name="hdAugerBlade">
+	<property name="Extends" value="partsMaster" />
+	<property name="DescriptionKey" value="hdAugerBlade" />
+	<property name="CustomIcon" value="HDAuger_Blade" />
+	<property name="EconomicValue" value="500" />
+	<property class="Attributes">
+		<property name="EntityDamage" value="4,12" />
+		<property name="BlockDamage" value="65,90" />		
 		<property name="DegradationMax" value="6000,12000" />
 	</property>	
 </item>
