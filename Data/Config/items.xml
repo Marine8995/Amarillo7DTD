@@ -9842,18 +9842,18 @@ Mesh files no longer used:
 	</property>
 </item>
 
-<item id="1507" name="hdAuger">
+<item id="1507" name="militaryAuger">
 	<property name="Extends" value="auger" />
-	<property name="DescriptionKey" value="hdAuger" />
+	<property name="DescriptionKey" value="militaryAuger" />
 	<property name="CustomIcon" value="HDAuger" />
 	<property name="EconomicValue" value="1750" />
 	<property name="Material" value="metal"/>
 	<property name="RepairTools" value="repairKit"/>	
 	<property class="Parts">
-		<property name="Stock" value="hdAugerParts"/>
+		<property name="Stock" value="militaryAugerParts"/>
 		<property name="Receiver" value="smallEngine"/>
 		<property name="Pump" value="partsHandlebars"/> <!-- DegradationRate -->
-		<property name="Barrel" value="hdAugerBlade"/>
+		<property name="Barrel" value="militaryAugerBlade"/>
 	</property>
 	<property class="Action0"> <!-- AttackAction -->		
 		<property name="Magazine_size" value="1000"/>		
@@ -9877,9 +9877,9 @@ Mesh files no longer used:
 	<property name="RepairExpMultiplier" value="10.8"/>
 </item>
 
-<item id="1508" name="hdAugerParts">
+<item id="1508" name="militaryAugerParts">
 	<property name="Extends" value="partsMaster" />
-	<property name="DescriptionKey" value="hdAugerParts" />
+	<property name="DescriptionKey" value="militaryAugerParts" />
 	<property name="CustomIcon" value="HDAuger_Parts" />
 	<property name="PartType" value="Stock" />
 	<property name="Weight" value="10" />
@@ -9891,9 +9891,9 @@ Mesh files no longer used:
 	</property>	
 </item>
 
-<item id="1509" name="hdAugerBlade">
+<item id="1509" name="militaryAugerBlade">
 	<property name="Extends" value="partsMaster" />
-	<property name="DescriptionKey" value="hdAugerBlade" />
+	<property name="DescriptionKey" value="militaryAugerBlade" />
 	<property name="CustomIcon" value="HDAuger_Blade" />
 	<property name="PartType" value="Barrel" />
 	<property name="Weight" value="40" />
@@ -9905,18 +9905,18 @@ Mesh files no longer used:
 	</property>	
 </item>
 
-<item id="1510" name="hdChainsaw">
+<item id="1510" name="militaryChainsaw">
 	<property name="Extends" value="chainsaw" />
-	<property name="DescriptionKey" value="hdChainsaw" />
+	<property name="DescriptionKey" value="militaryChainsaw" />
 	<property name="CustomIcon" value="HDChainsaw" />
 	<property name="EconomicValue" value="1750" />
 	<property name="Material" value="metal"/>
 	<property name="RepairTools" value="repairKit"/>	
 	<property class="Parts">
-		<property name="Stock" value="hdChainsawParts"/>
+		<property name="Stock" value="militaryChainsawParts"/>
 		<property name="Receiver" value="smallEngine"/>
 		<property name="Pump" value="partsHandlebars"/> <!-- DegradationRate -->
-		<property name="Barrel" value="hdChainsawBlade"/>
+		<property name="Barrel" value="militaryChainsawBlade"/>
 	</property>
 	<property class="Action0"> <!-- AttackAction -->		
 		<property name="Magazine_size" value="1000"/>		
@@ -9936,9 +9936,9 @@ Mesh files no longer used:
 	<property name="RepairExpMultiplier" value="10.8"/>
 </item>
 
-<item id="1511" name="hdChainsawParts">
+<item id="1511" name="militaryChainsawParts">
 	<property name="Extends" value="partsMaster" />
-	<property name="DescriptionKey" value="hdChainsawParts" />
+	<property name="DescriptionKey" value="militaryChainsawParts" />
 	<property name="CustomIcon" value="HDAuger_Parts" />
 	<property name="PartType" value="Stock" />
 	<property name="Weight" value="10" />
@@ -9949,9 +9949,9 @@ Mesh files no longer used:
 	</property>	
 </item>
 
-<item id="1512" name="hdChainsawBlade">
+<item id="1512" name="militaryChainsawBlade">
 	<property name="Extends" value="partsMaster" />
-	<property name="DescriptionKey" value="hdChainsawBlade" />
+	<property name="DescriptionKey" value="militaryChainsawBlade" />
 	<property name="CustomIcon" value="HDChainsaw_Blade" />
 	<property name="PartType" value="Barrel" />
 	<property name="Weight" value="50" />
@@ -9963,5 +9963,71 @@ Mesh files no longer used:
 		<property name="DismembermentBaseChance" value=".2,.3"/>
 		<property name="DismembermentBonus" value="0,0.00036"/>
 	</property>	
+</item>
+
+<item id="1513" name="militaryMachete">
+	<property name="CustomIcon" value="SteelMachete" />
+	<property name="Meshfile" value="Items/Weapons/Melee/Knives/machetePrefab" />
+	<property name="Material" value="metal" />
+	<property name="RepairTools" value="forgedSteel" />
+	<property name="HoldType" value="47" />
+ 	<property name="DegradationBreaksAfter" value="false" />
+	<property name="FuelValue" value="12" />
+	<property name="EconomicValue" value="1450" />
+	<property name="SoundJammed" value="ItemNeedsRepair"/>
+	<property name="SoundDestroy" value="wooddestroy1" />
+	<property name="Weight" value="0" />
+	<property class="Action0"> <!-- AttackAction -->
+		<property name="Class" value="Melee" />
+		<property name="Delay" value="1.1" />
+		<property name="Range" value="2.2" />
+		<property name="Sphere" value="0.1" />
+		<property name="Sound_start" value="swoosh" />
+		<property name="Stamina_usage" value="9.2" />
+		<property name="DamageBonus.wood" value="3" />
+		<property name="DamageBonus.head" value="5" />
+		<property name="DamageBonus.glass" value="1" />
+		<property name="DamageBonus.leaves" value="25" />
+		<property name="DamageBonus.organic" value="3" />
+		<property name="ToolCategory.Butcher" value="1.2" param1="9"/>
+		<property name="Sound_harvesting" value="UseActions/open_animal" param1="organic" />
+	</property>
+	<property class="Attributes">
+		<property name="EntityDamage" value="41,60" />
+		<property name="BlockDamage" value="6,12" />
+		<property name="DegradationMax" value="750,1800" />
+		<property name="DegradationRate" value="1,1" />
+		<property name="DismembermentBaseChance" value="0.07,0.09"/>
+	</property>
+	<property name="Group" value="Ammo/Weapons" />
+	<property name="ActionSkillGroup" value="Blade Weapons"/>
+	<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
+	<property name="RepairExpMultiplier" value="5.5"/>
+</item>
+
+<item id="1514" name="militaryWrench">
+	<property name="CustomIcon" value="HDWrench" />\
+	<property name="Extends" value="wrench" />
+	<property name="RepairTools" value="forgedSteel"/>
+	<property name="EconomicValue" value="560" />
+	<property class="Action0">
+		<property name="DamageBonus.metal" value="3" />
+		<property name="DamageBonus.organic" value="0.4" />
+		<property name="ActionExp" value="5"/>
+		<property name="ToolCategory.Disassemble" value="1.5" param1="2"  />
+		<property name="ToolCategory.HDDisassemble" value="1" param1="2"  />
+	</property>
+	<property class="Action1">
+		<property name="Repair_amount" value="600" />
+		<property name="Upgrade_hit_offset" value="-2" />
+		<property name="Restricted_upgrade_items" value="wood,clayLump,dirtFragment,snowBall,scrapIron,forgedIron,forgedSteel,steelPolish,concreteMix,cobblestones,yuccaFibers,gasCan,hoeIron,corn"/>
+	</property>
+	<property class="Attributes">
+		<property name="BlockDamage" value="20,32" />
+		<property name="DegradationMax" value="750,2500" />
+	</property>
+	<property name="ActionSkillGroup" value="Mechanic"/>
+	<property name="CraftingSkillGroup" value="craftSkillTools"/>
+	<property name="RepairExpMultiplier" value="6"/>
 </item>
 </items>

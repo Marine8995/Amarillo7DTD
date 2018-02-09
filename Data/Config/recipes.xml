@@ -2686,17 +2686,17 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="forgedSteel" count="2"/>
 </recipe>
 
-<recipe name="hdAugerParts" count="1" craft_area="workbench" craft_exp_gain="250">
+<recipe name="militaryAugerParts" count="1" craft_area="workbench" craft_exp_gain="250">
 	<ingredient name="partsAuger_parts" count="1"/>
 	<ingredient name="forgedSteel" count="25"/>
 </recipe>
 
-<recipe name="hdAugerBlade" count="1" craft_area="workbench" craft_exp_gain="250">
+<recipe name="militaryAugerBlade" count="1" craft_area="workbench" craft_exp_gain="250">
 	<ingredient name="partsAuger_blade" count="1"/>
 	<ingredient name="forgedSteel" count="50"/>
 </recipe>
 
-<recipe name="hdAuger" count="1" craft_area="assembly" craft_exp_gain="50">
+<recipe name="militaryAuger" count="1" craft_area="assembly" craft_exp_gain="50">
 	<ingredient name="partsHandlebars" count="1"/>
 	<ingredient name="smallEngine" count="1"/>
 	<ingredient name="hdAugerParts" count="1"/>
@@ -2709,23 +2709,57 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="forgedSteel" count="2"/>
 </recipe>
 
-<recipe name="hdChainsawParts" count="1" craft_area="workbench" craft_exp_gain="250">
+<recipe name="militaryChainsawParts" count="1" craft_area="workbench" craft_exp_gain="250">
 	<ingredient name="forgedSteel" count="25"/>
 	<ingredient name="partsChainsaw_parts" count="1"/>
 </recipe>
 
-<recipe name="hdChainsawBlade" count="1" craft_area="workbench" craft_exp_gain="250">
+<recipe name="militaryChainsawBlade" count="1" craft_area="workbench" craft_exp_gain="250">
 	<ingredient name="forgedSteel" count="50"/>
 	<ingredient name="partsChainsaw_blade" count="1"/>
 </recipe>
 
-<recipe name="hdChainsaw" count="1" craft_area="assembly" craft_exp_gain="50">
+<recipe name="militaryChainsaw" count="1" craft_area="assembly" craft_exp_gain="50">
 	<ingredient name="partsHandlebars" count="1"/>
 	<ingredient name="smallEngine" count="1"/>
 	<ingredient name="hdChainsawParts" count="1"/>
 	<ingredient name="hdChainsawBlade" count="1"/>
 </recipe>
 
+<recipe name="partsNailgun_frame" count="1" craft_area="workbench" craft_exp_gain="75">
+	<ingredient name="scrapPlastics" count="6"/>
+	<ingredient name="glue" count="2"/>
+</recipe>
+
+<recipe name="partsNailgun_receiver" count="1" craft_area="workbench" craft_exp_gain="75">
+	<ingredient name="forgedIron" count="4"/>
+	<ingredient name="mechanicalParts" count="4"/>
+	<ingredient name="electricParts" count="2"/>
+</recipe>
+
+<recipe name="partsNailgun_parts" count="1" craft_area="workbench" craft_exp_gain="75">
+	<ingredient name="forgedIron" count="2"/>
+	<ingredient name="electricParts" count="2"/>
+	<ingredient name="electronicParts" count="4"/>
+</recipe>
+
+<recipe name="partsNailgun_battery" count="1" craft_area="workbench" craft_exp_gain="75">
+	<ingredient name="forgedIron" count="6"/>
+	<ingredient name="scrapLead" count="6"/>
+	<ingredient name="scrapPlastics" value="6"/>
+	<ingredient name="electricParts" value="2"/>
+</recipe>
+
+<recipe name="militaryMachete" count="1" craft_area="workbench" craft_exp_gain="150">
+	<ingredient name="forgedSteel" count="3"/>
+	<ingredient name="macheteBlade" count="1"/>
+	<ingredient name="leather" count="1"/>
+</recipe>
+
+<recipe name="militaryWrench" count="1" craft_area="workbench" craft_exp_gain="75">
+	<ingredient name="forgedSteel" count="20"/>
+	<ingredient name="mechanicalParts" count="6"/>
+</recipe>
 </recipes>
 
 <!-- To do (maybe / later)
