@@ -9857,8 +9857,6 @@ Mesh files no longer used:
 	</property>
 	<property class="Action0"> <!-- AttackAction -->		
 		<property name="Magazine_size" value="1000"/>		
-		<property name="DamageBonus.stone" value="3"/>
-		<property name="DamageBonus.metal" value="2"/>
         <property name="Delay" value="0.2" />
 		<property name="Crosshair_min_distance" value="5" />
 		<property name="Crosshair_max_distance" value="30" />
@@ -9883,8 +9881,11 @@ Mesh files no longer used:
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="hdAugerParts" />
 	<property name="CustomIcon" value="HDAuger_Parts" />
+	<property name="PartType" value="Stock" />
+	<property name="Weight" value="10" />
 	<property name="EconomicValue" value="500" />
-	<property class="Attributes">		
+	<property class="Attributes">
+        <property name="FalloffRange" value="5,5" />	
 		<property name="DegradationRate" value="1,1" />
 		<property name="DegradationMax" value="6000,12000" />
 	</property>	
@@ -9894,6 +9895,8 @@ Mesh files no longer used:
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="hdAugerBlade" />
 	<property name="CustomIcon" value="HDAuger_Blade" />
+	<property name="PartType" value="Barrel" />
+	<property name="Weight" value="40" />
 	<property name="EconomicValue" value="500" />
 	<property class="Attributes">
 		<property name="EntityDamage" value="4,12" />
@@ -9917,8 +9920,6 @@ Mesh files no longer used:
 	</property>
 	<property class="Action0"> <!-- AttackAction -->		
 		<property name="Magazine_size" value="1000"/>		
-		<property name="DamageBonus.wood" value="20"/>
-		<property name="DamageBonus.head" value="10"/>
 	    <property name="Sound_start" value="chainsaw_fire_start"/>
 		<property name="Sound_repeat" value="Weapons/Motorized/Chainsaw/chainsaw_fire_lp"/>
 		<property name="Sound_end" value="Weapons/Motorized/Chainsaw/chainsaw_fire_end"/>
@@ -9939,9 +9940,11 @@ Mesh files no longer used:
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="hdChainsawParts" />
 	<property name="CustomIcon" value="HDAuger_Parts" />
+	<property name="PartType" value="Stock" />
+	<property name="Weight" value="10" />
 	<property name="EconomicValue" value="500" />
 	<property class="Attributes">		
-		<property name="DegradationRate" value="1,1" />
+		<property name="FalloffRange" value="2.4,2.4" />
 		<property name="DegradationMax" value="6000,12000" />
 	</property>	
 </item>
@@ -9950,11 +9953,15 @@ Mesh files no longer used:
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="hdChainsawBlade" />
 	<property name="CustomIcon" value="HDChainsaw_Blade" />
+	<property name="PartType" value="Barrel" />
+	<property name="Weight" value="50" />
 	<property name="EconomicValue" value="500" />
 	<property class="Attributes">
 		<property name="EntityDamage" value="4,12" />
 		<property name="BlockDamage" value="65,90" />		
 		<property name="DegradationMax" value="6000,12000" />
+		<property name="DismembermentBaseChance" value=".2,.3"/>
+		<property name="DismembermentBonus" value="0,0.00036"/>
 	</property>	
 </item>
 </items>
