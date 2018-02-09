@@ -2760,6 +2760,34 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="forgedSteel" count="20"/>
 	<ingredient name="mechanicalParts" count="6"/>
 </recipe>
+
+<recipe name="militaryPistolGrip" count="1" craft_area="gunSmithingWorkstation" craft_tool="anvil" material_based="true">
+	<ingredient name="forgedSteel" count="20"/>
+	<ingredient name="scrapPlastics" count="6"/>
+</recipe>
+
+<recipe name="militaryPistolReceiver" count="1" craft_area="gunSmithingWorkstation" craft_tool="anvil" material_based="true">
+	<ingredient name="forgedSteel" count="20"/>
+	<ingredient name="mechanicalParts" count="6"/>
+</recipe>
+
+<recipe name="militaryPistolBarrel" count="1" craft_area="gunSmithingWorkstation" craft_tool="anvil" material_based="true">
+	<ingredient name="forgedSteel" count="20"/>
+	<ingredient name="forgedIron" count="10"/>
+</recipe>
+
+<recipe name="militaryPistolParts" count="1" craft_area="gunSmithingWorkstation" craft_tool="calipers" material_based="true">
+	<ingredient name="forgedSteel" count="20"/>
+	<ingredient name="mechanicalParts" count="6"/>
+</recipe>
+
+<recipe name="militaryPistol" count="1" craft_area="assembly" >
+    <ingredient name="flashlight02" count="0"/>
+    <ingredient name="militaryPistolParts" count="1"/>
+    <ingredient name="militaryPistolBarrel" count="1"/>
+    <ingredient name="militaryPistolReceiver" count="1"/>
+    <ingredient name="militaryPistolGrip" count="1"/>
+</recipe>
 </recipes>
 
 <!-- To do (maybe / later)

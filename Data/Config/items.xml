@@ -10030,4 +10030,108 @@ Mesh files no longer used:
 	<property name="CraftingSkillGroup" value="craftSkillTools"/>
 	<property name="RepairExpMultiplier" value="6"/>
 </item>
+
+<item id="1515" name="militaryPistol">
+    <property name="CustomIcon" value="ePistol" />
+    <property name="Meshfile" value="Items/Weapons/Ranged/Pistol/PistolPrefab" />
+    <property name="Material" value="metal" />
+	<property name="RepairTools" value="repairKit" />
+    <property name="HoldType" value="1" />
+    <property name="DegradationBreaksAfter" value="false" />
+    <property name="SoundJammed" value="weapon_jam" />
+    <property name="Attachments" value="flashlight02" />
+	<property name="CrosshairOnAim" value="false"/> <!-- aimTest -->
+	<property name="CrosshairUpAfterShot" value="true"/> <!-- aimTest -->
+    <property class="Parts">
+      <property name="Stock" value="militaryPistolGrip" />
+      <property name="Receiver" value="militaryPistolReceiver" />
+      <property name="Pump" value="militaryPistolParts" />
+      <property name="Barrel" value="militaryPistolBarrel" />
+    </property>
+	<property name="Sound_Sight_In" value="pistol_sight_in"/>
+	<property name="Sound_Sight_Out" value="pistol_sight_out"/>
+    <property class="Action0">
+		<property name="Class" value="Ranged" />
+		<property name="Delay" value="0.15" />
+		<property name="Crosshair_min_distance" value="5"/>
+		<property name="Crosshair_max_distance" value="6"/>
+		<property name="Magazine_size" value="8" />
+		<property name="Magazine_items" value="44MagBullet" />
+		<property name="Magazine_item_ray_counts" value="1, 1" />
+		<property name="Magazine_item_ray_spreads" value="0, 0" />
+		<property name="Reload_time" value="1.5" />
+		<property name="Bullet_icon" value="pistol" />
+		<property name="Sound_start" value="pistol_fire" />
+		<property name="Sound_repeat" value="" />
+		<property name="Sound_end" value="" />
+		<property name="Sound_empty" value="weapon_empty" />
+		<property name="Sound_reload" value="pistol_reload" />
+		<property name="Particles_muzzle_fire" value="nozzleflash" />
+		<property name="Particles_muzzle_smoke" value="nozzlesmoke" />
+		<property name="DamageBonus.head" value="7" />
+		<property name="DamageBonus.wood" value="3" />
+		<property name="DamageBonus.earth" value="0.4" />
+		<property name="DamageBonus.glass" value="1" />
+    </property>
+    <property class="Action1">
+      <property name="Class" value="Zoom" />
+      <property name="Zoom_max_out" value="40" />
+      <property name="Zoom_max_in" value="35" />
+    </property>
+    <property name="LightSource" value="lightSource" />
+    <property name="ActivateObject" value="Attachments/flashlight/lightSource" />
+    <property name="AttachmentFlashlight" value="flashlight02" />
+    <property name="Group" value="Ammo/Weapons" />
+	<property name="ActionSkillGroup" value="Pistols" />
+    <property name="CraftingSkillGroup" value="craftSkillGuns" />
+	<property name="RepairExpMultiplier" value="10.8"/>
+	<property name="LightValue" value="0.45"/>	
+</item>
+
+<item id="1516" name="militaryPistolBarrel">
+    <property name="CustomIcon" value="ePistolBarrel" />
+	<property name="Extends" value="partsMaster" />
+    <property name="PartType" value="Barrel" />
+    <property name="Weight" value="20" />
+    <property class="Attributes">
+		<property name="DegradationMax" value="2250,6500" />
+    </property>
+	<property name="EconomicValue" value="624" />
+</item>
+
+<item id="1517" name="militaryPistolParts">
+    <property name="CustomIcon" value="ePistolParts" />
+	<property name="Extends" value="partsMaster" />
+    <property name="PartType" value="Pump" />
+	<property name="Weight" value="15" />
+    <property class="Attributes">
+		<!-- <property name="Accuracy" value="1,0.05" /> -->
+		<property name="DegradationMax" value="2250,6500" />
+    </property>
+	<property name="EconomicValue" value="624" />
+</item>
+
+<item id="1518" name="militaryPistolReceiver">
+    <property name="CustomIcon" value="ePistolFrame" />
+	<property name="Extends" value="partsMaster" />
+    <property name="PartType" value="Receiver" />
+    <property name="Weight" value="30" />
+    <property class="Attributes">
+		<property name="FalloffRange" value="25,60" />
+		<property name="DegradationMax" value="2250,6500" />
+    </property>
+	<property name="EconomicValue" value="624" />
+</item>
+
+<item id="1519" name="militaryPistolGrip">
+    <property name="CustomIcon" value="ePistolGrip" />
+	<property name="Extends" value="partsMaster" />
+    <property name="PartType" value="Stock" />
+    <property name="Weight" value="20" />
+    <property class="Attributes">
+		<property name="DegradationRate" value="10,10" />
+		<property name="DegradationMax" value="2250,6500" />
+    </property>
+	<property name="EconomicValue" value="624" />
+</item>
 </items>
