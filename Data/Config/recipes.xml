@@ -2699,8 +2699,8 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="hdAuger" count="1" craft_area="assembly" craft_exp_gain="50">
 	<ingredient name="partsHandlebars" count="1"/>
 	<ingredient name="smallEngine" count="1"/>
-	<ingredient name="hdAuger_Parts" count="1"/>
-	<ingredient name="hdAuger_Blade" count="1"/>
+	<ingredient name="hdAugerParts" count="1"/>
+	<ingredient name="hdAugerBlade" count="1"/>
 </recipe>
 
 <recipe name="partsChainsaw_parts" count="1" craft_area="workbench">
