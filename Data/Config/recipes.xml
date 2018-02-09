@@ -2761,22 +2761,22 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="mechanicalParts" count="6"/>
 </recipe>
 
-<recipe name="militaryPistolGrip" count="1" craft_area="gunSmithingWorkstation" craft_tool="anvil" material_based="true">
+<recipe name="militaryPistolGrip" count="1" craft_area="workbench" craft_exp_gain="75">
 	<ingredient name="forgedSteel" count="20"/>
 	<ingredient name="scrapPlastics" count="6"/>
 </recipe>
 
-<recipe name="militaryPistolReceiver" count="1" craft_area="gunSmithingWorkstation" craft_tool="anvil" material_based="true">
+<recipe name="militaryPistolReceiver" count="1" craft_area="workbench" craft_exp_gain="75">
 	<ingredient name="forgedSteel" count="20"/>
 	<ingredient name="mechanicalParts" count="6"/>
 </recipe>
 
-<recipe name="militaryPistolBarrel" count="1" craft_area="gunSmithingWorkstation" craft_tool="anvil" material_based="true">
+<recipe name="militaryPistolBarrel" count="1" craft_area="workbench" craft_exp_gain="75">
 	<ingredient name="forgedSteel" count="20"/>
 	<ingredient name="forgedIron" count="10"/>
 </recipe>
 
-<recipe name="militaryPistolParts" count="1" craft_area="gunSmithingWorkstation" craft_tool="calipers" material_based="true">
+<recipe name="militaryPistolParts" count="1" craft_area="workbench" craft_exp_gain="75">
 	<ingredient name="forgedSteel" count="20"/>
 	<ingredient name="mechanicalParts" count="6"/>
 </recipe>
