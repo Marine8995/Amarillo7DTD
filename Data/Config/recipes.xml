@@ -2709,12 +2709,12 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="forgedSteel" count="2"/>
 </recipe>
 
-<recipe name="hdChainsawParts" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="250">
+<recipe name="hdChainsawParts" count="1" craft_area="workbench" craft_exp_gain="250">
 	<ingredient name="forgedSteel" count="25"/>
 	<ingredient name="partsChainsaw_parts" count="1"/>
 </recipe>
 
-<recipe name="hdChainsawBlade" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="250">
+<recipe name="hdChainsawBlade" count="1" craft_area="workbench" craft_exp_gain="250">
 	<ingredient name="forgedSteel" count="50"/>
 	<ingredient name="partsChainsaw_blade" count="1"/>
 </recipe>
