@@ -2699,8 +2699,8 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="militaryAuger" count="1" craft_area="assembly" craft_exp_gain="50">
 	<ingredient name="partsHandlebars" count="1"/>
 	<ingredient name="smallEngine" count="1"/>
-	<ingredient name="hdAugerParts" count="1"/>
-	<ingredient name="hdAugerBlade" count="1"/>
+	<ingredient name="militaryAugerParts" count="1"/>
+	<ingredient name="militaryAugerBlade" count="1"/>
 </recipe>
 
 <recipe name="partsChainsaw_parts" count="1" craft_area="workbench">
@@ -2722,8 +2722,8 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="militaryChainsaw" count="1" craft_area="assembly" craft_exp_gain="50">
 	<ingredient name="partsHandlebars" count="1"/>
 	<ingredient name="smallEngine" count="1"/>
-	<ingredient name="hdChainsawParts" count="1"/>
-	<ingredient name="hdChainsawBlade" count="1"/>
+	<ingredient name="militaryChainsawParts" count="1"/>
+	<ingredient name="militaryChainsawBlade" count="1"/>
 </recipe>
 
 <recipe name="partsNailgun_frame" count="1" craft_area="workbench" craft_exp_gain="75">
