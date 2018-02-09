@@ -9888,4 +9888,51 @@ Mesh files no longer used:
 		<property name="DegradationMax" value="6000,12000" />
 	</property>	
 </item>
+
+<item id="1510" name="hdChainsaw">
+	<property name="Extends" value="chainsaw" />
+	<property name="DescriptionKey" value="hdChainsaw" />
+	<property name="CustomIcon" value="HDChainsaw" />
+	<property name="EconomicValue" value="1750" />
+	<property name="Material" value="metal"/>
+	<property name="RepairTools" value="repairKit"/>	
+	<property class="Parts">
+		<property name="Stock" value="hdChainsawParts"/>
+		<property name="Receiver" value="smallEngine"/>
+		<property name="Pump" value="partsHandlebars"/> <!-- DegradationRate -->
+		<property name="Barrel" value="hdChainsawBlade"/>
+	</property>
+	<property class="Action0"> <!-- AttackAction -->		
+		<property name="Magazine_size" value="1000"/>		
+		<property name="DamageBonus.wood" value="20"/>
+		<property name="DamageBonus.head" value="10"/>		
+	</property>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="ActionSkillGroup" value="Mining Tools"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
+	<property name="RepairExpMultiplier" value="10.8"/>
+</item>
+
+<item id="1511" name="hdChainsawParts">
+	<property name="Extends" value="partsMaster" />
+	<property name="DescriptionKey" value="hdChainsawParts" />
+	<property name="CustomIcon" value="HDAuger_Parts" />
+	<property name="EconomicValue" value="500" />
+	<property class="Attributes">		
+		<property name="DegradationRate" value="1,1" />
+		<property name="DegradationMax" value="6000,12000" />
+	</property>	
+</item>
+
+<item id="1512" name="hdChainsawBlade">
+	<property name="Extends" value="partsMaster" />
+	<property name="DescriptionKey" value="hdChainsawBlade" />
+	<property name="CustomIcon" value="HDChainsaw_Blade" />
+	<property name="EconomicValue" value="500" />
+	<property class="Attributes">
+		<property name="EntityDamage" value="4,12" />
+		<property name="BlockDamage" value="65,90" />		
+		<property name="DegradationMax" value="6000,12000" />
+	</property>	
+</item>
 </items>

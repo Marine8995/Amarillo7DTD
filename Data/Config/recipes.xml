@@ -2703,6 +2703,29 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="hdAuger_Blade" count="1"/>
 </recipe>
 
+<recipe name="partsChainsaw_parts" count="1" craft_area="workbench">
+	<ingredient name="partsChainsaw_parts" count="1"/>
+	<ingredient name="repairKit" count="1"/>
+	<ingredient name="forgedSteel" count="2"/>
+</recipe>
+
+<recipe name="hdChainsawParts" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="250">
+	<ingredient name="forgedSteel" count="25"/>
+	<ingredient name="partsChainsaw_parts" count="1"/>
+</recipe>
+
+<recipe name="hdChainsawBlade" count="1" craft_area="AdvancedToolWorkbench" craft_exp_gain="250">
+	<ingredient name="forgedSteel" count="50"/>
+	<ingredient name="partsChainsaw_blade" count="1"/>
+</recipe>
+
+<recipe name="hdChainsaw" count="1" craft_area="assembly" craft_exp_gain="50">
+	<ingredient name="partsHandlebars" count="1"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="hdChainsawParts" count="1"/>
+	<ingredient name="hdChainsawBlade" count="1"/>
+</recipe>
+
 </recipes>
 
 <!-- To do (maybe / later)
