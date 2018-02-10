@@ -10242,7 +10242,7 @@ Mesh files no longer used:
 	<property name="EconomicValue" value="1750" />
 </item>
 
-<item id="1525" name="icedTeaBag">
+<item id="1525" name="teaBag">
 	<property name="CustomIcon" value="GreenTeaExtract" />
     <property name="Meshfile" value="Items/Misc/sackPrefab" />
     <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
@@ -10253,8 +10253,7 @@ Mesh files no longer used:
 		<property name="Delay" value="1.0" />
 		<property name="Use_time" value="0" />
 		<property name="Gain_stamina" value="5" />
-		<property name="Gain_wellness" value="0.4" />
-		<property name="Buff" value="Soberizing,gainImmunity_xsmall_Trigger" />
+		<property name="Gain_wellness" value="0.4" />		
     </property>
     <property name="CraftingIngredientTime" value="15" />
     <property name="Group" value="Food/Cooking" />
@@ -10276,7 +10275,7 @@ Mesh files no longer used:
       <property name="Gain_stamina" value="40" />
       <property name="Sound_start" value="UseActions/player_drinking" />
       <property name="Gain_wellness" value="1.1" />
-	  <property name="Buff" value="GreenTea,Soberizing,gainImmunity_xsmall_Trigger" />
+	  <property name="Buff" value="redTeaCooling,extinguishFireBuff" />
       <property name="Debuff" value="dysentery" />
 	  <property name="Create_item" value="emptyJar" />
     </property>

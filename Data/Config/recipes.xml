@@ -2817,12 +2817,12 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
     <ingredient name="militarySniperRifleParts" count="1"/>
 </recipe>
 
-<recipe name="icedTeaBag" count="1">
+<recipe name="teaBag" count="1">
 	<ingredient name="yuccaFibers" count="10"/>
 </recipe>
 
 <recipe name="icedTea" count="1" craft_area="campfire" craft_tool="cookingPot">
-	<ingredient name="icedTeaBag" count="2"/>
+	<ingredient name="teaBag" count="2"/>
 	<ingredient name="bottledWater" count="1"/>
 </recipe>
 
