@@ -10401,4 +10401,22 @@ Mesh files no longer used:
 		<property name="UISlot" value="ChestArmor"/>
 	</property>
 </item>
+
+<item id="1534" name="militaryHelmetLight"> <!-- militaryArmor -->
+	<property name="Extends" value="militaryGloves"/>
+	<property name="CustomIcon" value="militaryHelmetLight"/>
+	<property name="Class" value="ItemClassToggle"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="ActivateObject" value="miningHelmetLightSource(Clone)"/>
+	<property name="LightSource" value="Entities/Lighting/miningHelmetLightSource"/>
+	<property class="UMA">
+		<property name="Mesh" value="gear_kevlar_helmet"/>
+		<property name="Overlay0" value="gear_kevlar_helmet"/>
+		<property name="Layer" value="2"/>
+		<property name="UISlot" value="Headgear"/>
+		<property name="ShowAltHair" value="true"/>
+	</property>
+	<property name="LightValue" value="0.7"/>
+	<property name="DescriptionKey" value="HelmetLightDesc" />
+</item>
 </items>
