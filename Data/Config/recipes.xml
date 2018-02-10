@@ -2816,6 +2816,27 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
     <ingredient name="militarySniperRifleStock" count="1"/>
     <ingredient name="militarySniperRifleParts" count="1"/>
 </recipe>
+
+<recipe name="icedTeaExtract" count="1">
+	<ingredient name="yuccaFibers" count="10"/>
+</recipe>
+
+<recipe name="icedTea" count="1" craft_area="campfire" craft_tool="cookingPot">
+	<ingredient name="GreenTeaExtract" count="2"/>
+	<ingredient name="bottledWater" count="1"/>
+</recipe>
+
+<recipe name="cornTortilla" count="1">    
+    <ingredient name="bottledWater" count="1"/>
+    <ingredient name="cornMeal" count="2"/>
+</recipe>
+
+<recipe name="tacos" count="1" craft_area="campfire" craft_tool="cookingPot">
+    <ingredient name="rawRedMeat" count="5"/>
+    <ingredient name="cornTortilla" count="2"/>
+    <ingredient name="potato" count="2"/>
+    <ingredient name="corn" count="2"/>
+</recipe>
 </recipes>
 
 <!-- To do (maybe / later)
