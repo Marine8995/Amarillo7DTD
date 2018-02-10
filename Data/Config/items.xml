@@ -10319,4 +10319,86 @@ Mesh files no longer used:
 	<property name="ActionSkillGroup" value="craftSkillScience" />
 	<property name="ActionExp" value="2" />
 </item>
+
+<item id="1529" name="militaryGloves"> <!-- armorMastermilitaryArmor -->
+	<property name="Insulation" value="0"/>
+	<property name="Encumbrance" value="0.05"/>
+	<property name="Material" value="MmilitaryFiber"/>
+	<property name="RepairTools" value="militaryFiber"/>
+	<property name="Weight" value="5"/>
+	<property name="EconomicValue" value="1600"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="EquipSlot" value="Hands"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property class="Attributes">
+		<property name="ConcussiveProtection" value="0.28,0.7"/>
+		<property name="PunctureProtection" value="0.3,0.75"/>
+		<property name="FireProtection" value="0.08,0.2"/>
+		<property name="RadiationProtection" value="0.12,0.3"/>
+		<property name="ElectricalProtection" value="0.06,0.1"/>
+		<property name="DegradationMax" value="280,700"/>
+	</property>
+	<property class="UMA">
+		<property name="Mesh" value="armor_kevlar_gloves"/>
+		<property name="Overlay0" value="armor_kevlar_gloves"/>
+		<property name="Layer" value="0"/>
+		<property name="UISlot" value="Gloves"/>
+	</property>
+	<property name="DescriptionKey" value="militaryArmorGroupDesc"/>
+	<property name="Group" value="Clothing"/>
+	<property name="ActionSkillGroup" value="Clothing/Armor"/>
+	<property name="CraftingSkillGroup" value="craftSkillArmor"/>
+	<property name="RepairExpMultiplier" value="12.8"/>
+</item>
+
+<item id="1530" name="militaryHelmet"> <!-- militaryArmor -->
+	<property name="Extends" value="militaryGloves"/>
+	<property name="EquipSlot" value="Head"/>
+	<property class="UMA">
+		<property name="Mesh" value="gear_kevlar_helmet"/>
+		<property name="Overlay0" value="gear_kevlar_helmet"/>
+		<property name="Layer" value="2"/>
+		<property name="UISlot" value="Headgear"/>
+		<property name="ShowAltHair" value="true"/>
+	</property>
+</item>
+
+<item id="1531" name="militaryBoots"> <!-- militaryArmor -->
+	<property name="Extends" value="militaryGloves"/>
+	<property name="EquipSlot" value="Feet"/>
+	<property class="UMA">
+		<property name="Mesh" value="armor_kevlar_boots"/>
+		<property name="Overlay0" value="armor_kevlar_boots"/>
+		<property name="Layer" value="0"/>
+		<property name="UISlot" value="Footwear"/>
+	</property>
+</item>
+
+<item id="1532" name="militaryLegArmor"> <!-- militaryArmor -->
+	<property name="Extends" value="militaryGloves"/>
+	<property name="Weight" value="10"/>
+	<property name="EconomicValue" value="3200"/>
+	<property name="EquipSlot" value="Legs"/>
+	<property class="UMA">
+		<property name="Mesh" value="armor_kevlar_legarmor"/>
+		<property name="Overlay0" value="armor_kevlar_legarmor"/>
+		<property name="Layer" value="3"/>
+		<property name="UISlot" value="LegArmor"/>
+	</property>
+</item>
+
+<item id="1533" name="militaryVest"> <!-- militaryArmor -->
+	<property name="Extends" value="militaryGloves"/>
+	<property name="Weight" value="10"/>
+	<property name="EconomicValue" value="3200"/>
+	<property name="EquipSlot" value="Chest"/>
+	<property class="UMA">
+		<property name="Mesh" value="armor_kevlar_vest"/>
+		<property name="Overlay0" value="armor_kevlar_vest"/>
+		<property name="Layer" value="2"/>
+		<property name="UISlot" value="ChestArmor"/>
+	</property>
+</item>
 </items>

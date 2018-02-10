@@ -2837,6 +2837,36 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
     <ingredient name="potato" count="2"/>
     <ingredient name="corn" count="2"/>
 </recipe>
+
+<recipe name="militaryGloves" count="1" craft_area="workbench" craft_exp_gain="50">
+	<ingredient name="forgedSteel" count="20"/>
+	<ingredient name="militaryFiber" count="3"/>
+</recipe>
+
+<recipe name="militaryHelmet" count="1" craft_area="workbench" craft_exp_gain="50">
+	<ingredient name="forgedSteel" count="30"/>
+	<ingredient name="militaryFiber" count="4"/>
+</recipe>
+
+<recipe name="militaryBoots" count="1" craft_area="workbench" craft_exp_gain="50">
+	<ingredient name="forgedSteel" count="40"/>
+	<ingredient name="militaryFiber" count="4"/>
+</recipe>
+
+<recipe name="militaryLegArmor" count="1" craft_area="workbench" craft_exp_gain="50">
+	<ingredient name="forgedSteel" count="50"/>
+	<ingredient name="militaryFiber" count="5"/>
+</recipe>
+
+<recipe name="militaryVest" count="1" craft_area="workbench" craft_exp_gain="50">
+	<ingredient name="forgedSteel" count="50"/>
+	<ingredient name="militaryFiber" count="6"/>
+</recipe>
+
+<recipe name="militaryHelmetLight" count="1" craft_area="workbench">
+	<ingredient name="militaryHelmet" count="1"/>
+	<ingredient name="flashlight02" count="1"/>
+</recipe>
 </recipes>
 
 <!-- To do (maybe / later)
