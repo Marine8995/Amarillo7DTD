@@ -10242,7 +10242,7 @@ Mesh files no longer used:
 	<property name="EconomicValue" value="1750" />
 </item>
 
-<item id="1525" name="icedTeaExtract">
+<item id="1525" name="icedTeaBag">
 	<property name="CustomIcon" value="GreenTeaExtract" />
     <property name="Meshfile" value="Items/Misc/sackPrefab" />
     <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
