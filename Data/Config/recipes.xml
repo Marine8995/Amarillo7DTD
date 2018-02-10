@@ -2826,7 +2826,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="bottledWater" count="1"/>
 </recipe>
 
-<recipe name="cornTortilla" count="1">    
+<recipe name="cornTortilla" count="1" craft_area="campfire">    
     <ingredient name="bottledWater" count="1"/>
     <ingredient name="cornMeal" count="2"/>
 </recipe>
