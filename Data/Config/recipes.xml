@@ -2788,6 +2788,34 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
     <ingredient name="militaryPistolReceiver" count="1"/>
     <ingredient name="militaryPistolGrip" count="1"/>
 </recipe>
+
+<recipe name="militarySniperRifleStock" count="1" craft_area="workbench" craft_exp_gain="75">
+	<ingredient name="forgedSteel" count="20"/>
+	<ingredient name="scrapPlastics" count="6"/>
+</recipe>
+
+<recipe name="militarySniperRifleReceiver" count="1" craft_area="workbench" craft_exp_gain="75">
+	<ingredient name="forgedSteel" count="20"/>
+	<ingredient name="mechanicalParts" count="6"/>
+</recipe>
+
+<recipe name="militarySniperRifleBarrel" count="1" craft_area="workbench" craft_exp_gain="75">
+	<ingredient name="forgedSteel" count="20"/>
+	<ingredient name="forgedIron" count="10"/>
+</recipe>
+
+<recipe name="militarySniperRifleParts" count="1" craft_area="workbench" craft_exp_gain="75">
+	<ingredient name="forgedSteel" count="20"/>
+	<ingredient name="mechanicalParts" count="6"/>
+</recipe>
+
+<recipe name="militarySniperRifle" count="1" craft_area="assembly" >
+    <ingredient name="flashlight02" count="0"/>
+    <ingredient name="militarySniperRifleBarrel" count="1"/>
+    <ingredient name="militarySniperRifleReceiver" count="1"/>
+    <ingredient name="militarySniperRifleStock" count="1"/>
+    <ingredient name="militarySniperRifleParts" count="1"/>
+</recipe>
 </recipes>
 
 <!-- To do (maybe / later)
