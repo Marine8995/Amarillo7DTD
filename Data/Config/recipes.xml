@@ -2832,7 +2832,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="tacos" count="1" craft_area="campfire" craft_tool="cookingPot">
-    <ingredient name="rawRedMeat" count="5"/>
+    <ingredient name="rawMeat" count="5"/>
     <ingredient name="cornTortilla" count="2"/>
     <ingredient name="potato" count="2"/>
     <ingredient name="corn" count="2"/>
