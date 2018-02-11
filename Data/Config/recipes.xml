@@ -2831,7 +2831,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
     <ingredient name="cornMeal" count="2"/>
 </recipe>
 
-<recipe name="tacos" count="1" craft_area="campfire" craft_tool="cookingPot">
+<recipe name="taco" count="1" craft_area="campfire" craft_tool="cookingPot">
     <ingredient name="rawMeat" count="5"/>
     <ingredient name="cornTortilla" count="2"/>
     <ingredient name="potato" count="2"/>
@@ -2866,6 +2866,12 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="militaryHelmetLight" count="1" craft_area="workbench">
 	<ingredient name="militaryHelmet" count="1"/>
 	<ingredient name="flashlight02" count="1"/>
+</recipe>
+
+<recipe name="WirelessPowerBox" count="1" craft_area="workbench">
+    <ingredient name="electricParts" count="3"/>
+    <ingredient name="electronicParts" count="5"/>
+    <ingredient name="forgedIron" count="4"/>
 </recipe>
 </recipes>
 
