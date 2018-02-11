@@ -10219,7 +10219,7 @@ Mesh files no longer used:
 </item>
 
 <item id="1523" name="militarySniperRifleReceiver">
-    <property name="CustomIcon" value="militarySniperRifleStock" />
+    <property name="CustomIcon" value="militarySniperRifleReceiver" />
 	<property name="Extends" value="partsMaster" />
     <property name="PartType" value="Receiver" />
     <property name="Weight" value="45" />
