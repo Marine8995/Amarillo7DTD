@@ -55,7 +55,7 @@
 			
 			<!--cell_rule: Name of Cell rules to use in the world. -->
 			<!-- Lower the prob="" value to increase hubs generated-->
-			<cell_rule name="deadCell" prob="0.01"/>			
+			<cell_rule name="deadCell" prob="0.001"/>			
 			<cell_rule name="settlementCell" prob="0.35"/>
 			<cell_rule name="RuinedCityCell" prob="0.25"/>
 			<!--<cell_rule name="TestCell" prob="1"/>-->
@@ -75,7 +75,7 @@
 			
 			<hub_rule name="smallOutpost" prob="0.22"/>
 			<hub_rule name="mediumOutpost" prob="0.22"/>
-			<hub_rule name="largeOutpost" prob="0.24"/>	<!-- What hub's you want to form in a cell area * 1 hub per cell area * -->
+			<hub_rule name="largeOutpost" prob="0.5"/>	<!-- What hub's you want to form in a cell area * 1 hub per cell area * -->
 			<hub_rule name="abandonedOutpost" prob="0.3"/>
 	
 
