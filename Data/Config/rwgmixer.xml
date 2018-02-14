@@ -55,7 +55,7 @@
 			
 			<!--cell_rule: Name of Cell rules to use in the world. -->
 			<!-- Lower the prob="" value to increase hubs generated-->
-			<cell_rule name="deadCell" prob="0.05"/>			
+			<cell_rule name="deadCell" prob="0.01"/>			
 			<cell_rule name="settlementCell" prob="0.35"/>
 			<cell_rule name="RuinedCityCell" prob="0.25"/>
 			<!--<cell_rule name="TestCell" prob="1"/>-->
