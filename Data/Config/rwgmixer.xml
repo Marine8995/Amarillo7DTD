@@ -503,16 +503,7 @@
 			<prefab name="store_gun_sm_01" max_count="1" prob="0.5"/>
 			<prefab name="football_stadium"  max_count="1"/>
 			<prefab name="hospital_01_rg"  max_count="1"/>
-			<prefab name="school_01" min_count="1" max_count="1"/>
-			<prefab name="waste_rubble_bldg_01" max_count="1"/>
-			<prefab name="waste_rubble_bldg_02" max_count="1"/>
-			<prefab name="waste_rubble_bldg_03" max_count="1"/>
-			<prefab name="waste_rubble_bldg_04" max_count="1"/>
-			<prefab name="waste_rubble_bldg_05" max_count="1"/>
-			<prefab name="waste_rubble_bldg_06" max_count="1"/>
-			<prefab name="waste_rubble_bldg_07" max_count="1"/>
-			<prefab name="waste_rubble_bldg_08" max_count="1"/>
-			<prefab name="waste_rubble_bldg_09" max_count="1"/>
+			<prefab name="school_01" min_count="1" max_count="1"/>			
 			<prefab name="store_hardware_sm_01" max_count="1"/>
 			<prefab name="store_hardware_lg_01" prob="0.5" max_count="1"/>
 			<prefab name="store_grocery_sm_01" max_count="1"/>
@@ -540,16 +531,7 @@
 			<prefab name="vacant_lot_sm_02" prob="0.5" max_count="1"/>
 			<prefab name="army_barracks_01" prob="0.5" max_count="1"/>
 			<prefab name="utility_celltower_02" max_count="1"/>
-			<prefab name="utility_celltower_01" max_count="1"/>
-			<prefab name="waste_rubble_bldg_01" max_count="2"/>
-			<prefab name="waste_rubble_bldg_02" max_count="2"/>
-			<prefab name="waste_rubble_bldg_03" max_count="2"/>
-			<prefab name="waste_rubble_bldg_04" max_count="2"/>
-			<prefab name="waste_rubble_bldg_05" max_count="2"/>
-			<prefab name="waste_rubble_bldg_06" max_count="2"/>
-			<prefab name="waste_rubble_bldg_07" max_count="2"/>
-			<prefab name="waste_rubble_bldg_08" max_count="2"/>
-			<prefab name="waste_rubble_bldg_09" max_count="2"/>
+			<prefab name="utility_celltower_01" max_count="1"/>			
 		</prefab_rule>
 		
 		
@@ -707,16 +689,7 @@
 			<prefab name="store_gun_sm_01" max_count="1" prob="0.5"/>
 			<prefab name="football_stadium"  max_count="1"/>
 			<prefab name="hospital_01_rg"  max_count="1"/>
-			<prefab name="school_01" min_count="1" max_count="1"/>
-			<prefab name="waste_rubble_bldg_01" max_count="3"/>
-			<prefab name="waste_rubble_bldg_02" max_count="3"/>
-			<prefab name="waste_rubble_bldg_03" max_count="3"/>
-			<prefab name="waste_rubble_bldg_04" max_count="3"/>
-			<prefab name="waste_rubble_bldg_05" max_count="3"/>
-			<prefab name="waste_rubble_bldg_06" max_count="3"/>
-			<prefab name="waste_rubble_bldg_07" max_count="3"/>
-			<prefab name="waste_rubble_bldg_08" max_count="3"/>
-			<prefab name="waste_rubble_bldg_09" max_count="3"/>
+			<prefab name="school_01" min_count="1" max_count="1"/>			
 			<prefab name="store_hardware_sm_01" max_count="1"/>
 			<prefab name="store_hardware_lg_01" prob="0.5" max_count="1"/>
 			<prefab name="store_grocery_sm_01" max_count="1"/>
@@ -763,16 +736,7 @@
 			<prefab name="bar_sm_01" max_count="1"/>
 			<prefab name="fire_station_01" max_count="1" prob="0.2"/>
 			<prefab name="fire_station_02" max_count="1" prob="0.2"/>
-			<prefab name="store_pawn_01" max_count="1" />
-			<prefab name="waste_rubble_bldg_01" max_count="3"/>
-			<prefab name="waste_rubble_bldg_02" max_count="3"/>
-			<prefab name="waste_rubble_bldg_03" max_count="3"/>
-			<prefab name="waste_rubble_bldg_04" max_count="3"/>
-			<prefab name="waste_rubble_bldg_05" max_count="3"/>
-			<prefab name="waste_rubble_bldg_06" max_count="3"/>
-			<prefab name="waste_rubble_bldg_07" max_count="3"/>
-			<prefab name="waste_rubble_bldg_08" max_count="3"/>
-			<prefab name="waste_rubble_bldg_09" max_count="3"/>
+			<prefab name="store_pawn_01" max_count="1" />			
 		</prefab_rule>
 		
 		<prefab_rule name="RuinedDowntownGroup">
@@ -848,16 +812,7 @@
 			<prefab name="vacant_lot_sm_02" prob="0.5" max_count="1"/>
 			<prefab name="army_barracks_01" prob="0.5" max_count="1"/>
 			<prefab name="utility_celltower_02" max_count="1"/>
-			<prefab name="utility_celltower_01" max_count="1"/>
-			<prefab name="waste_rubble_bldg_01" max_count="8"/>
-			<prefab name="waste_rubble_bldg_02" max_count="8"/>
-			<prefab name="waste_rubble_bldg_03" max_count="8"/>
-			<prefab name="waste_rubble_bldg_04" max_count="8"/>
-			<prefab name="waste_rubble_bldg_05" max_count="8"/>
-			<prefab name="waste_rubble_bldg_06" max_count="8"/>
-			<prefab name="waste_rubble_bldg_07" max_count="8"/>
-			<prefab name="waste_rubble_bldg_08" max_count="8"/>
-			<prefab name="waste_rubble_bldg_09" max_count="8"/>
+			<prefab name="utility_celltower_01" max_count="1"/>			
 		</prefab_rule>
 		
 		<prefab_rule name="RuinedIndustrialGroup">
