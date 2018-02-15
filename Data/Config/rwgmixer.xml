@@ -57,7 +57,7 @@
 			<!-- Lower the prob="" value to increase hubs generated-->
 			<cell_rule name="deadCell" prob="0.05"/>			
 			<cell_rule name="settlementCell" prob="0.5"/>
-			<cell_rule name="RuinedCityCell" prob="0.0"/>
+			<cell_rule name="RuinedCityCell" prob="0"/>
 			<!--<cell_rule name="TestCell" prob="1"/>-->
 			
 		</ruleset>
@@ -402,15 +402,18 @@
 	
 		<prefab_rule name="none"/>	                                          <!-- Poi group list for use in hubs                                                    -->
 		
-		<prefab_rule name="Settlement_Pois">								  <!-- name of prefab group lists to use in Hubs                                         -->
-			<prefab rule="accentPois"/>	                					  <!-- prefab list to use                                                                -->   
-			<prefab rule="extraResidentialOldGroup"/>   					  <!-- prefab list to use with "residentialOld" zone                                     -->
-			<prefab rule="residentialOld"/>             					  <!-- prefab list to use with in "residentialOld" zones                                 -->
+		<prefab_rule name="Settlement_Pois">
+            <prefab name="business_strip_old_01" max_count="1"/>
+			<prefab rule="skyscrapers" min_count="3" max_count="6" prob="50"/>		<!-- name of prefab group lists to use in Hubs                                         -->
+			<prefab rule="accentPois"/>            					  <!-- prefab list to use                                                                -->   
 			<prefab rule="residentialNew"/>             					  <!-- prefab list to use in "residentialNew" zones                                      -->
 			<prefab rule="commercialGroup"/>            					  <!-- prefab list to use in "commercial" zones                                          -->
 			<prefab rule="downtownGroup"/>              					  <!-- prefab list to use in "downtown" zones                                            -->
 			<prefab rule="industrialGroup"/>            					  <!-- prefab list to use in "industrial" zones                                          -->
-			<prefab rule="detailFillerGroup"/>          					  <!-- prefab list to use in "..." not being used yet                                    -->
+			<prefab rule="detailFillerGroup"/>
+			<prefab rule="CityResidentialNew"/>             				  <!-- prefab list to use in "residentialNew" zones                                      -->
+			<prefab rule="CityCommercial"/>  
+			<prefab rule="CityIndustrial"/>                                   <!-- prefab list to use in "..." not being used yet                                    -->
 		</prefab_rule>
 		
 		<prefab_rule name="RuinedCity_Pois">	
