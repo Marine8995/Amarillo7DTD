@@ -1408,7 +1408,7 @@
 </lootgroup>
 
 <lootgroup name="rabbitTrap" count="all">
-	<item name="rawRedMeat" count="1,2"/>
+	<item name="rawMeat" count="1,2"/>
 	<item name="animalHide" count="2"/>
 </lootgroup>
 
