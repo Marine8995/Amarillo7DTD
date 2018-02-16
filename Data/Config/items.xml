@@ -2506,6 +2506,7 @@ Mesh files no longer used:
 	<property name="EconomicBundleSize" value="100"/>
 	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 	<property name="Group" value="Resources,Chemicals"/>
+	<property name="Allowed_upgrade_items" value="gasCan" />
 </item>
 
 <item id="164" name="arrow">
