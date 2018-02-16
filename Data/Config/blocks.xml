@@ -17298,7 +17298,7 @@ kind of free
 	<drop event="Destroy" name="9mmBullet" count="0,18" prob="0.1"/>
 </block>
 
-<block id="2048" name="WirelessPowerBox">
+<block id="1485" name="WirelessPowerBox">
   <property name="Class" value="Powered"/>
   <property name="Model" value="Industrial/fusebox" param1="main_mesh"/> <property name="HandleFace" value="South"/>
   <property name="CustomIcon" value="fusebox"/>
@@ -17319,6 +17319,116 @@ kind of free
   <drop event="Fall" name="scrapMetalPile" count="1" prob="0.70" stick_chance="1"/>
   <property name="EconomicValue" value="30"/>
   <property name="TakeDelay" value="5"/>
+</block>
+
+<block id="1486" name="FireTrap">
+	<property name="CustomIcon" value="FireTrap" />
+    <property name="Class" value="Damage" />
+    <property name="Damage" value="1" />
+	<property name="Damage_received" value="75" /> 
+	<property name="BuffsWhenWalkedOn" value="burning" />
+    <property name="Material" value="Mmetal_hard" />
+	<property name="Shape" value="New"/>
+	<property name="Model" value="Plate"/>
+    <property name="Texture" value="355,356,356,356,356,356" />
+    <property name="DowngradeBlock" value="FireTrap(HalfCapacity)" />
+	<property class="RepairItems">
+		<property name="gasCan" value="10" />
+	</property>
+    <drop event="Destroy" count="0" prob="1" />    
+    <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance="1" />    
+	<property name="Group" value="Tools/Traps" />
+	<property name="CraftingSkillGroup" value="Construction"/>
+</block>
+
+<block id="1487" name="FireTrap(HalfCapacity)">
+	<property name="CustomIcon" value="FireTrap" />
+    <property name="Class" value="Damage" />
+    <property name="Damage" value="1" />
+	<property name="Damage_received" value="50" /> 
+	<property name="BuffsWhenWalkedOn" value="burningSmall" />
+    <property name="Material" value="Mmetal_hard" />
+	<property name="Shape" value="New"/>
+	<property name="Model" value="Plate"/>
+    <property name="Texture" value="355,356,356,356,356,356" />
+    <property name="DowngradeBlock" value="FireTrap(Empty)" />
+    <property class="UpgradeBlock">
+		<property name="ToBlock" value="FireTrap" />
+		<property name="Item" value="gasCan" />
+		<property name="ItemCount" value="10" />
+		<property name="UpgradeHitCount" value="1" />
+    </property>
+	<property class="RepairItems">
+		<property name="gasCan" value="10" />
+	</property>
+	<drop event="Destroy" count="0" prob="1" />    
+    <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance="1" />    
+</block>
+
+<block id="1488" name="FireTrap(Empty)">
+	<property name="CustomIcon" value="FireTrap" />
+    <property name="Material" value="Mmetal_hard" />
+	<property name="Shape" value="New"/>
+	<property name="Model" value="Plate"/>
+    <property name="Texture" value="356,356,356,356,356,356" />
+	<property class="UpgradeBlock">
+      <property name="ToBlock" value="FireTrap(HalfCapacity)" />
+      <property name="Item" value="gasCan" />
+      <property name="ItemCount" value="10" />
+      <property name="UpgradeHitCount" value="1" />
+    </property>
+	<property class="RepairItems">
+	  <property name="gasCan" value="10" />
+	</property>
+	<drop event="Destroy" count="0" prob="1" />        
+    <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance="1" />    
+</block>
+
+<block id="1489" name="RabbitTrap(Unbaited)">
+	<property name="CustomIcon" value="RabbitTrap" />
+    <property name="Material" value="metal" />
+    <property name="Shape" value="Ext3dModel" />
+    <property name="Mesh" value="models" />
+    <property name="Model" value="LootContainers/shopping_basket_empty" param1="main_mesh" />
+    <property name="CanPickup" value="true" />
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="RabbitTrap(Baited)" />
+		<property name="Item" value="corn" />
+		<property name="ItemCount" value="2" />
+		<property name="UpgradeHitCount" value="4" />
+    </property>	
+    <drop event="Destroy" name="wood" count="2" prob="0.5" />
+	<property name="Group" value="Tools/Traps,Food/Cooking" />
+	<property name="CraftingSkillGroup" value="Construction"/>
+</block>
+
+<block id="1490" name="RabbitTrap(Baited)">
+	<property name="Extends" value="cropsGrowingMaster" />
+	<property name="CustomIcon" value="RabbitTrap" />
+    <property name="Material" value="wood" />
+    <property name="Shape" value="Ext3dModel" />
+    <property name="Mesh" value="models" />
+    <property name="Model" value="LootContainers/shopping_basket_empty" param1="main_mesh" />
+	<property name="PlantGrowing.Next" value="RabbitTrapFull" />
+	<property name="DowngradeBlock" value="RabbitTrap(Unbaited)" />
+    <drop event="Destroy" name="RabbitTrap(Unbaited)" count="1" prob="1" />
+	<drop event="Fall" name="RabbitTrap(Unbaited)" count="1" prob="1.0"  stick_chance="1" />
+	<property name="Group" value="Tools/Traps,Food/Cooking" />
+</block>
+
+<block id="1491" name="RabbitTrapFull">
+	<property name="CustomIcon" value="RabbitTrap" />
+    <property name="Class" value="Loot" />
+    <property name="Material" value="wood" />
+    <property name="Shape" value="Ext3dModel" />
+    <property name="Mesh" value="models" />
+    <property name="Model" value="LootContainers/shopping_basket" param1="main_mesh" />
+	<property name="CustomIcon" value="shoppingBasketEmpty" />
+    <property name="LootList" value="121" />
+	<property name="DowngradeBlock" value="RabbitTrap(Unbaited)" />
+    <drop event="Destroy" name="RabbitTrap(Unbaited)" count="1" prob="1" />
+	<drop event="Fall" name="RabbitTrap(Unbaited)" count="1" prob="1.0"  stick_chance="1" />
+	<property name="Group" value="Tools/Traps,Food/Cooking" />
 </block>
 
 </blocks><!-- Block limit: No block can have an ID greater 2047. -->

@@ -2873,6 +2873,22 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
     <ingredient name="electronicParts" count="5"/>
     <ingredient name="forgedIron" count="4"/>
 </recipe>
+
+<recipe name="FireTrap" count="1" craft_area="workbench">
+	<ingredient name="forgedSteel" count="5"/>
+	<ingredient name="cookingGrill" count="1"/>
+	<ingredient name="gasCan" count="10"/>
+</recipe>
+
+<recipe name="RabbitTrap(Unbaited)" count="1">
+	<ingredient name="wood" count="10"/>
+	<ingredient name="yuccaFibers" count="5"/>
+</recipe>
+
+<recipe name="RabbitTrap(Baited)" count="1">
+	<ingredient name="RabbitTrap(Unbaited)" count="1"/>
+	<ingredient name="corn" count="2"/>
+</recipe>
 </recipes>
 
 <!-- To do (maybe / later)
