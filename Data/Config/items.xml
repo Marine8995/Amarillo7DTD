@@ -10085,6 +10085,8 @@ Mesh files no longer used:
     <property name="Weight" value="20" />
     <property class="Attributes">
 		<property name="DegradationMax" value="2250,6500" />
+		<property name="EntityDamage" value="30,75"/>
+		<property name="BlockDamage" value="8,14"/>
     </property>
 	<property name="EconomicValue" value="624" />
 </item>
@@ -10190,6 +10192,8 @@ Mesh files no longer used:
     <property name="Weight" value="40" />
     <property class="Attributes">
 		<property name="DegradationMax" value="4000,10000" />
+		<property name="EntityDamage" value="60,150"/>
+		<property name="BlockDamage" value="8,14"/>
     </property>
 	<property name="EconomicValue" value="1750" />
 </item>
