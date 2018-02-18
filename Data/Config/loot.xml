@@ -1284,6 +1284,7 @@
 	<item name="emptyJar" prob="2.5"/>
 	<item name="bottledWater"/>
 	<item name="beer"/>
+	<item name="gunsandoilbeer"/>
 	<item name="megaCrush" prob="0.045"/>
 </lootgroup>
 
@@ -1993,6 +1994,7 @@
 	<item name="shades" prob="0.1"/>
 	<item name="shadesBlack" prob="0.5"/>
 	<item name="beer" prob="3"/>
+	<item name="gunsandoilbeer" prob="3"/>
 	<item name="grainAlcohol"/>
 	<item name="oldCash" count="1,15"/>
 	<item name="casinoCoin" count="1,10"/>
@@ -2038,6 +2040,7 @@
 	<item name="shovelIron" prob="1"/>
 	<item name="shovelSteel" prob="0.5"/>
 	<item name="beer" prob="1"/>
+	<item name="gunsandoilbeer" prob="1"/>
 	<item group="weaponsCompoundBowParts" prob="0.02"/>
 	<item name="compoundBow" prob="0.04"/>
 </lootcontainer>

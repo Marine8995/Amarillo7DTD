@@ -2889,6 +2889,18 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="RabbitTrap(Unbaited)" count="1"/>
 	<ingredient name="corn" count="2"/>
 </recipe>
+
+<recipe name="gunsandoilbeer" count="1" craft_area="chemistryStation">
+	<ingredient name="hopsFlower" count="4"/>
+	<ingredient name="bottledRiverWater" count="1"/>
+	<ingredient name="teaBag" count="1"/>
+</recipe>
+
+<recipe name="smokedbrisket" count="1" craft_area="campfire" craft_tool="cookingGrill">
+    <ingredient name="rawMeat" count="5"/>
+    <ingredient name="gunsandoilbeer" count="1"/>
+    <ingredient name="wood" count="10"/>    
+</recipe>
 </recipes>
 
 <!-- To do (maybe / later)
