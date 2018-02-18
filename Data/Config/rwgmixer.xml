@@ -412,8 +412,10 @@
 			<prefab rule="industrialGroup"/>            					  <!-- prefab list to use in "industrial" zones                                          -->
 			<prefab rule="detailFillerGroup"/>
 			<prefab rule="CityResidentialNew"/>             				  <!-- prefab list to use in "residentialNew" zones                                      -->
+			<prefab rule="CityResidentialOld"/>
 			<prefab rule="CityCommercial"/>  
 			<prefab rule="CityIndustrial"/>                                   <!-- prefab list to use in "..." not being used yet                                    -->
+		    <prefab rule="extraResidentialOldGroup"/>
 		</prefab_rule>
 		
 		<prefab_rule name="RuinedCity_Pois">	
