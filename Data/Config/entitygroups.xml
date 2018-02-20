@@ -30,7 +30,7 @@
 		<entity name="zombieBikerSLPR" prob="0.043"/>
 		<entity name="zombieFarmerSLPR" prob="0.043"/>
 		<entity name="zombieHooker" prob="0.043"/>
-		<!--<entity name="zombieStripperSLPR" prob="0.043"/>-->
+		<entity name="zombieStripperSLPR" prob="0.043"/>
 	</entitygroup>
 	
 	
@@ -58,7 +58,7 @@
 		<entity name="zombieOldTimerFeralSLPR" prob="0.043"/>
 		<entity name="zombieFarmerFeralSLPR" prob="0.043"/>
 		<entity name="zombieHooker" prob="0.043"/>
-		<!--<entity name="zombieStripperFeralSLPR" prob="0.043"/>-->
+		<entity name="zombieStripperFeralSLPR" prob="0.043"/>
 	</entitygroup>
 	
 	
@@ -91,7 +91,7 @@
 		<entity name="zombieBikerLDR" prob="0.043"/>
 		<entity name="zombieFarmerLDR" prob="0.043"/>
 		<entity name="zombieHooker" prob="0.043"/>
-		<!--<entity name="zombieStripperLDR" prob="0.043"/>-->
+		<entity name="zombieStripperLDR" prob="0.043"/>
 	</entitygroup>
 	
 	
@@ -121,7 +121,7 @@
 		<entity name="zombieOldTimerFeralLDR" prob="0.043"/>
 		<entity name="zombieFarmerFeralLDR" prob="0.043"/>
 		<entity name="zombieHooker" prob="0.043"/>
-		<!--<entity name="zombieStripperFeralLDR" prob="0.043"/>-->
+		<entity name="zombieStripperFeralLDR" prob="0.043"/>
 	</entitygroup>
 	
 	
@@ -166,7 +166,7 @@
 		<entity name="zombieCheerleaderLDR" prob="0.0156"/>
 		<entity name="zombieBikerLDR" prob="0.0156"/>
 		<entity name="zombieHooker" prob="0.0156"/>
-		<!--<entity name="zombieStripperLDR" prob="0.0156"/>-->
+		<entity name="zombieStripperLDR" prob="0.0156"/>
 	</entitygroup>
 	
 
@@ -215,7 +215,7 @@
 		<entity name="zombieOldTimerFeralLDR" prob="0.043"/>
 		<entity name="zombieFarmerFeralLDR" prob="0.043"/>
 		<entity name="zombieHooker" prob="0.043"/>
-		<!--<entity name="zombieStripperFeralLDR" prob="0.043"/>-->
+		<entity name="zombieStripperFeralLDR" prob="0.043"/>
 	</entitygroup>
 	
 	
@@ -247,7 +247,7 @@
 		<entity name="zombieOldTimerFeralSLPR" prob="0.0039"/>
 		<entity name="zombieFarmerFeralSLPR" prob="0.0039"/>
 		<entity name="zombieHooker" prob="0.0039"/>
-		<!--<entity name="zombieStripperFeralSLPR" prob="0.0039"/>-->
+		<entity name="zombieStripperFeralSLPR" prob="0.0039"/>
 		<entity name="zombieBoeSLPR" prob="0.0625"/>
 		<entity name="zombieFootballPlayerSLPR" prob="0.0625"/>
 		<entity name="zombieFemaleFatSLPR" prob="0.0625"/>
@@ -271,7 +271,7 @@
 		<entity name="zombieBikerSLPR" prob="0.0625"/>
 		<entity name="zombieFarmerSLPR" prob="0.0625"/>
 		<entity name="zombieHooker" prob="0.0625"/>
-		<!--<entity name="zombieStripperSLPR" prob="0.0625"/>-->
+		<entity name="zombieStripperSLPR" prob="0.0625"/>
 	</entitygroup>
 	
 	
@@ -284,7 +284,7 @@
 		<entity name="zombieCheerleaderLDR" prob="0.0156"/>
 		<entity name="zombieBikerLDR" prob="0.0156"/>
 		<entity name="zombieHooker" prob="0.0156"/>
-		<!--<entity name="zombieStripperLDR" prob="0.0156"/>-->
+		<entity name="zombieStripperLDR" prob="0.0156"/>
 		<entity name="zombieBoeFOD" prob="0.0625"/>
 		<entity name="zombieFemaleFatFOD" prob="0.0625"/>
 		<entity name="zombieJoeFOD" prob="0.0625"/>
@@ -327,7 +327,7 @@
 		<entity name="zombieCheerleaderFeralLDR" prob="0.0083"/>
 		<entity name="zombieOldTimerFeralLDR" prob="0.0083"/>
 		<entity name="zombieFarmerFeralLDR" prob="0.0083"/>
-		<!--<entity name="zombieStripperFeralLDR" prob="0.0083"/>-->
+		<entity name="zombieStripperFeralLDR" prob="0.0083"/>
 		<entity name="zombieBoeLDR" prob="0.0416"/>
 		<entity name="zombieFootballPlayerLDR" prob="0.0416"/>
 		<entity name="zombieFemaleFatLDR" prob="0.0416"/>
@@ -352,7 +352,7 @@
 		<entity name="zombieOldTimerLDR" prob="0.0416"/>
 		<entity name="zombieFarmerLDR" prob="0.0416"/>
 		<entity name="zombieHooker" prob="0.0416"/>
-		<!--<entity name="zombieStripperLDR" prob="0.0416"/>-->
+		<entity name="zombieStripperLDR" prob="0.0416"/>
 	</entitygroup>
 	
 	
@@ -365,7 +365,7 @@
 		<entity name="zombieCheerleaderLDR" prob="0.125"/>
 		<entity name="zombieBikerLDR" prob="0.125"/>
 		<entity name="zombieHooker" prob="0.0125"/>
-		<!--<entity name="zombieStripperLDR" prob="0.125"/>-->
+		<entity name="zombieStripperLDR" prob="0.125"/>
 		<entity name="zombieWightFeralLDR" prob="0.0156"/>
 		<entity name="zombieBoeFeralLDR" prob="0.0156"/>
 		<entity name="zombieFemaleFatFeralLDR" prob="0.0156"/>
@@ -388,7 +388,7 @@
 		<entity name="zombieOldTimerFeralLDR" prob="0.0156"/>
 		<entity name="zombieFarmerFeralLDR" prob="0.0156"/>
 		<entity name="zombieHooker" prob="0.0156"/>
-		<!--<entity name="zombieStripperFeralLDR" prob="0.0156"/>-->
+		<entity name="zombieStripperFeralLDR" prob="0.0156"/>
 	</entitygroup>
 	
 	
@@ -417,7 +417,7 @@
 		<entity name="zombieCheerleaderLDR" prob="0.0156"/>
 		<entity name="zombieBikerLDR" prob="0.0156"/>
 		<entity name="zombieHooker" prob="0.0156"/>
-		<!--<entity name="zombieStripperLDR" prob="0.0156"/>-->
+		<entity name="zombieStripperLDR" prob="0.0156"/>
 		<entity name="zombieWightFeralLDR" prob="0.0039"/>
 		<entity name="zombieBoeFeralLDR" prob="0.0039"/>
 		<entity name="zombieFemaleFatFeralLDR" prob="0.0039"/>
@@ -440,7 +440,7 @@
 		<entity name="zombieOldTimerFeralLDR" prob="0.0039"/>
 		<entity name="zombieFarmerFeralLDR" prob="0.0039"/>
 		<entity name="zombieHooker" prob="0.0039"/>
-		<!--<entity name="zombieStripperFeralLDR" prob="0.0039"/>-->
+		<entity name="zombieStripperFeralLDR" prob="0.0039"/>
 	</entitygroup>
 	
 	<entitygroup name="ZombieFullActiveMixBloodMoon">
@@ -562,7 +562,7 @@
 		<entity name="zombieOldTimerFeralSLPR" prob="0.0039"/>
 		<entity name="zombieFarmerFeralSLPR" prob="0.0039"/>
 		<entity name="zombieHooker" prob="0.0039"/>
-		<!--<entity name="zombieStripperFeralSLPR" prob="0.0039"/>-->
+		<entity name="zombieStripperFeralSLPR" prob="0.0039"/>
 		<entity name="zombieBoeSLPR" prob="0.0625"/>
 		<entity name="zombieFootballPlayerSLPR" prob="0.0625"/>
 		<entity name="zombieFemaleFatSLPR" prob="0.0625"/>
@@ -586,7 +586,7 @@
 		<entity name="zombieBikerSLPR" prob="0.0625"/>
 		<entity name="zombieFarmerSLPR" prob="0.0625"/>
 		<entity name="zombieHooker" prob="0.0625"/>
-		<!--<entity name="zombieStripperSLPR" prob="0.0625"/>-->
+		<entity name="zombieStripperSLPR" prob="0.0625"/>
 	</entitygroup>
 	
 	<entitygroup name="ZombieHospitalMix">
@@ -611,7 +611,7 @@
 		<entity name="zombieOldTimerFeralSLPR" prob="0.0039"/>
 		<entity name="zombieFarmerFeralSLPR" prob="0.0039"/>
 		<entity name="zombieHooker" prob="0.0039"/>
-		<!--<entity name="zombieStripperFeralSLPR" prob="0.0039"/>-->
+		<entity name="zombieStripperFeralSLPR" prob="0.0039"/>
 		<entity name="zombieBoeSLPR" prob="0.0625"/>
 		<entity name="zombieFootballPlayerSLPR" prob="0.0625"/>
 		<entity name="zombieFemaleFatSLPR" prob="0.0625"/>
@@ -635,7 +635,7 @@
 		<entity name="zombieBikerSLPR" prob="0.0625"/>
 		<entity name="zombieFarmerSLPR" prob="0.0625"/>
 		<entity name="zombieHooker" prob="0.0625"/>
-		<!--<entity name="zombieStripperSLPR" prob="0.0625"/>-->
+		<entity name="zombieStripperSLPR" prob="0.0625"/>
 	</entitygroup>
 	
 	<entitygroup name="ZombieCopShopMix">
@@ -659,7 +659,7 @@
 		<entity name="zombieSoldierFeralSLPR" prob="0.0039"/>
 		<entity name="zombieSkateboarderFeralSLPR" prob="0.0039"/>
 		<entity name="zombieHooker" prob="0.0039"/>
-		<!--<entity name="zombieStripperFeralSLPR" prob="0.0039"/>-->
+		<entity name="zombieStripperFeralSLPR" prob="0.0039"/>
 		<entity name="zombieBoeSLPR" prob="0.0625"/>
 		<entity name="zombieFootballPlayerSLPR" prob="0.0625"/>
 		<entity name="zombieFemaleFatSLPR" prob="0.0625"/>
@@ -679,7 +679,7 @@
 		<entity name="zombieSkateboarderSLPR" prob="0.0625"/>
 		<entity name="zombieBikerSLPR" prob="0.0625"/>
 		<entity name="zombieHooker" prob="0.0625"/>
-		<!--<entity name="zombieStripperSLPR" prob="0.0625"/>-->
+		<entity name="zombieStripperSLPR" prob="0.0625"/>
 	</entitygroup>
 	
 	<entitygroup name="ZombieMilitaryMix">
