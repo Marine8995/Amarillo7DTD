@@ -10305,7 +10305,7 @@ Mesh files no longer used:
 		<property name="Gain_health" value="9" />
 		<property name="Gain_wellness" value="1.6" />
 		<property name="Buff" value="eatFood_78_Trigger" />
-		<property name="Sound_start" value="UseActions/player_drinking" />
+		<property name="Sound_start" value="player_eating" />
     </property>
     <property name="Smell" value="exLargeSmell" />
     <property name="Group" value="Food/Cooking" />
@@ -10452,7 +10452,7 @@ Mesh files no longer used:
 		<property name="Gain_health" value="9" />
 		<property name="Gain_wellness" value="1.6" />
 		<property name="Buff" value="eatFood_78_Trigger" />
-		<property name="Sound_start" value="UseActions/player_drinking" />
+		<property name="Sound_start" value="player_eating" />
     </property>
     <property name="Smell" value="exLargeSmell" />
     <property name="Group" value="Food/Cooking" />
