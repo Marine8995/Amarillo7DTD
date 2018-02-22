@@ -6,8 +6,8 @@
 
     <biome name="city">   						<!-- All Navezgane Cities Now not used -->
 	
-		<spawn maxcount="2" respawndelay="2" time="Day"   entitygroup="ZombieFodderActive" />
-		<spawn maxcount="2" respawndelay="2" time="Night"   entitygroup="ZombieFODLDRActiveMix" />
+		<spawn maxcount="1" respawndelay="2" time="Day"   entitygroup="ZombieFodderActive" />
+		<spawn maxcount="1" respawndelay="2" time="Night"   entitygroup="ZombieFODLDRActiveMix" />
 		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="EnemyAnimalsForest"/>
 		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="FriendlyAnimalsForest"/>
 		
@@ -119,7 +119,7 @@
 	<biome name="water">						<!--   spawn for water biome   -->
 	
 		<spawn maxcount="1" respawndelay="2" time="Day"   entitygroup="Ghouls" />
-		<spawn maxcount="2" respawndelay="1" time="Night"   entitygroup="Ghouls" />
+		<spawn maxcount="1" respawndelay="1" time="Night"   entitygroup="Ghouls" />
 		
 		<spawn maxcount="1" respawndelay="2" time="Any"   entitygroup="ZombieLDRAndFeralLDR" />
 		<spawn maxcount="2" respawndelay="3" time="Day" entitygroup="EnemyAnimalsWater"/>
