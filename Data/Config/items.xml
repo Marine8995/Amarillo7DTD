@@ -5146,7 +5146,7 @@ Mesh files no longer used:
 	<property name="EquipSlot" value="Face"/>
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="50"/>
-	<property name="Stacknumber" value="1"/>
+	<property name="Stacknumber" value="100"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>

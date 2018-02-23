@@ -315,9 +315,9 @@
 <!-- Level is the percentage to Max Level for the player. Max level is found in progression.xml -->
 <lootprobtemplates>
 	<lootprobtemplate name="baseProbTemplate">
-		<loot level="0,0.25" prob="0.25"/>
-		<loot level="0.25,0.50" prob="0.5"/>
-		<loot level="0.50,0.75" prob="0.75"/>
+		<loot level="0,0.25" prob="0.5"/>
+		<loot level="0.25,0.50" prob="0.75"/>
+		<loot level="0.50,0.75" prob="0.95"/>
 		<loot level="0.75,1" prob="1"/>
 	</lootprobtemplate>
 	<lootprobtemplate name="rareBookTemplate">

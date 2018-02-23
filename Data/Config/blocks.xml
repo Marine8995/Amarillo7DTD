@@ -15603,10 +15603,10 @@ kind of free
 	<drop event="Harvest" name="feather" count="0,3" prob="0.15" tool_category="Butcher"/>
 	
 	<!-- Accessories -->
-	<drop event="Harvest" name="facialPiercings" count="0,15" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="facialPiercings" count="0,1" prob="0.1" tool_category="Butcher"/>
 	
 	<!-- Press Caps -->
-	<drop event="Harvest" name="pressboyCapWhite" count="0,15" prob="0.1" tool_category="Butcher"/>
+	<drop event="Harvest" name="pressboyCapWhite" count="0,1" prob="0.1" tool_category="Butcher"/>
 	
 	
 	<!-- Food -->

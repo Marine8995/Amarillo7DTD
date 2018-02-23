@@ -19,7 +19,7 @@
 	<!-- if skill_point_cost_multiplier > 0 then PointCostPerLevel = int(SkillPointCostMultiplier ^ currentTier) * SkillPointCostPerLevel -->
 
 	<!-- Player Skills -->
-	<player_skill name="Athletics" icon="run" description_key="athleticsDesc" title_key="athletics" exp_to_level="500" group="health" >
+	<player_skill name="Athletics" icon="run" description_key="athleticsDesc" title_key="athletics" exp_to_level="250" group="health" >
 		<effect name="StaminaDegradation">
 			<!-- <multiply skill_level= and <multiply perk_level= are completely interchangeable. They parse as the same value. -->
 			<multiply skill_level="1,5" value="1.00,0.95"/>
@@ -83,7 +83,7 @@
 		</effect>
 	</perk>
 
-	<player_skill name="Scavenging" icon="loot_sack" description_key="scavengingDesc" title_key="scavenging" group="scavenging">
+	<player_skill name="Scavenging" icon="loot_sack" description_key="scavengingDesc" title_key="scavenging" exp_to_level="125" group="scavenging">
 		<effect name="LootTime">
 			<multiply skill_level="1,10" value="1,0.76"/>
 			<multiply skill_level="10,20" value="0.76,0.66"/>
